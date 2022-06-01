@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Gallery</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="stylesheet" type="text/css" href="css2.css">
+
+</head>
+<body>
+
+	 <! –– Start of header ––> 
+	<nav class="navbar">
+		<div class = "navbar_container">
+			<div class=" navbar_toggle" id = "mobile-menu">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+			<ul class="navbar_menu">
+				 <div class="dropdown" >
+    				<li class="navbar_links" style=" padding-left:70px; text-align: center; color: white;">   Department
+   					   <i class="fa fa-caret-down"></i>
+  			 		 </li>
+	    				<div class="dropdown-content">
+	    				  <a href="cet.html">College of Engineering and Technology</a>
+	    				   <a href="coe.html">College of Education</a>
+	    				   <a href="cbm.html">College of Business and Management</a>
+	    				  <a href="cvm.html">College of Veterinary Medicine</a>
+	     				 <a href="cas.html">College of Arts and Science</a>
+	     				 <a href="caf.html">College of Agricultural and Forestry</a>
+	   					 </div>
+  				</div>
+				<li class="navbar_item">
+					<a href = "index.html" class="navbar_links" id = "home-page" style="color: white;">Home</a>
+				</li>
+				<li class="navbar_item">
+					<a href = "aboutUs.html" class="navbar_links" id = "home-about" style="color: white;">About Us</a>
+				</li>
+				<li class="navbar_item">
+					<a href = "gallery.html" class="navbar_links" id = "home-services" style="color: white;"> Gallery</a>
+				</li>
+
+				<li class="navbar_btn">
+					<a href = "enroll.html" class="button" id = "signup" style="color: white;">Enroll</a>
+				</li>
+			</ul>
+			
+		</div>
+	</nav>
+	<br>
+ <! –– End of header ––> 
+ 	<br>
+
+<div style="border: 2px dashed gray; padding: 20px; margin: 20px;">
+	
+<p class="text_head">TARLAC AGRICULTURAL UNIVERSITY <br> GALLERY</p>
+<br><br>
+
+<div class="row">
+  <div class="column">
+    <img src="image\tau\1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="image\tau\2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="image\tau\3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="image\tau\4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="image\tau\5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="image\tau\6.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="image\tau\7.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="image\tau\8.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="image\tau\9.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="image\tau\10.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="image\tau\11.jpg" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="image\tau\12.jpg" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+  </div>
+ 
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+   					 <div class="mySlides">						 
+					      <img src="image\tau\1.jpg" class="center">
+					  </div>
+
+					  <div class="mySlides">						    
+					      <img src="image\tau\2.jpg" class="center">
+					 </div>
+					 <div class="mySlides">						    
+					      <img src="image\tau\3.jpg" class="center">
+					 </div>
+
+					 <div class="mySlides">						    
+					      <img src="image\tau\4.jpg" class="center">
+					 </div>
+					 <div class="mySlides">						    
+					      <img src="image\tau\5.jpg" class="center">
+					 </div>
+					 <div class="mySlides">						    
+					      <img src="image\tau\6.jpg" class="center">
+					 </div>
+					 <div class="mySlides">						    
+					      <img src="image\tau\7.jpg" class="center">
+					 </div>
+					 <div class="mySlides">						    
+					      <img src="image\tau\8.jpg" class="center">
+					 </div>
+					 <div class="mySlides">						    
+					      <img src="image\tau\9.jpg" class="center">
+					 </div>
+					 <div class="mySlides">						    
+					      <img src="image\tau\10.jpg" class="center">
+					 </div>
+					 <div class="mySlides">						    
+					      <img src="image\tau\11.jpg" class="center">
+					 </div>
+					 <div class="mySlides">						    
+					      <img src="image\tau\12.jpg" class="center">
+					 </div>
+					 
+
+
+					  
+
+						  
+					  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+						      <img class="demo cursor" src="image\tau\1.jpg" style="width:100%" onclick="currentSlide(1)" >
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="image\tau\2.jpg" style="width:100%" onclick="currentSlide(2)" >
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="image\tau\3.jpg" style="width:100%" onclick="currentSlide(3)" >
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="image\tau\4.jpg" style="width:100%" onclick="currentSlide(4)" >
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="image\tau\5.jpg" style="width:100%" onclick="currentSlide(5)" >
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="image\tau\6.jpg" style="width:100%" onclick="currentSlide(6)">
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="image\tau\7.jpg" style="width:100%" onclick="currentSlide(7)" >
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="image\tau\8.jpg" style="width:100%" onclick="currentSlide(8)" >
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="image\tau\9.jpg" style="width:100%" onclick="currentSlide(9)" >
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="image\tau\10.jpg" style="width:100%" onclick="currentSlide(10)" >
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="image\tau\11.jpg" style="width:100%" onclick="currentSlide(11)" >
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="image\tau\12.jpg" style="width:100%" onclick="currentSlide(12)" >
+						    </div>
+
+						   
+						      
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+</div>
+
+	
+<!--Footer-->
+
+<div id ="footer" >
+	<div class="center" id="q">
+		
+
+							<div class="btn" ><a href="https://web.facebook.com/tarlacagriculturaluniversity/?_rdc=1&_rdr"> <img src="image\call.png"></a> </div>
+							<div class="btn" ><a href="https://web.facebook.com/messages/t/114620661887244"> <img src="image\mes.png"></a> </div>
+							<div class="btn" ><a href="https://web.facebook.com/tarlacagriculturaluniversity/?_rdc=1&_rdr"> <img src="image\fb.png"></a> </div>
+				
+	</div>				
+
+</div>
+
+<script src="java.js" ></script>
+</body>
+</html>

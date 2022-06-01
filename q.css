@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+ }
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.columnn {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 8px;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+.columnn:hover {
+  width: 27%;
+  box-shadow: 0 40px 60px 0 rgba(0, 0, 0, 0.2);
+}
+.card {
+  
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+
+}
+
+.containr {
+  padding: 0 16px;
+   justify-content: center;
+   visibility: ;
+}
+
+.containr::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.buttn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: grey;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.buttn:hover {
+  background-color: #555;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.W {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

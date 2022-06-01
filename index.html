@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Scroll Website</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+
+</head>
+<body>
+
+	 <! –– Start of header ––> 
+	<nav class="navbar">
+		<div class = "navbar_container">
+			<div class=" navbar_toggle" id = "mobile-menu">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+			<ul class="navbar_menu">
+				 <div class="dropdown" >
+    				<li class="navbar_links" style="padding-left:70px; text-align: center; color: white;">   Department
+   					   <i class="fa fa-caret-down"></i>
+  			 		 </li>
+	    				<div class="dropdown-content">
+	    				  <a href="cet.html">College of Engineering and Technology</a>
+	    				   <a href="coe.html">College of Education</a>
+	    				   <a href="cbm.html">College of Business and Management</a>
+	    				  <a href="cvm.html">College of Veterinary Medicine</a>
+	     				 <a href="cas.html">College of Arts and Science</a>
+	     				 <a href="caf.html">College of Agricultural and Forestry</a>
+	   					 </div>
+  				</div>
+				<li class="navbar_item">
+					<a href = "index.html" class="navbar_links" id = "home-page" style="color: white;">Home</a>
+				</li>
+				<li class="navbar_item">
+					<a href = "aboutUs.html" class="navbar_links" id = "home-about" style="color: white;">About Us</a>
+				</li>
+				<li class="navbar_item">
+					<a href = "gallery.html" class="navbar_links" id = "home-services" style="color: white;"> Gallery</a>
+				</li>
+
+				<li class="navbar_btn">
+					<a href = "enroll.html" class="button" id = "signup" style="color: white;">Enroll</a>
+				</li>
+			</ul>
+			
+		</div>
+	</nav>
+
+ <! –– End of header ––> 
+
+ <! –– the picture ––> 
+ 	<div id="top">
+ 			
+			
+ 	</div>
+ <! –– End picture ––> 
+
+  <! –– START OF BODY ––>
+	<div id="Body">
+		<div id="content" >
+			<p class="text_head"> <br>Tarlac Agricultural <br> University <br></p>
+			<p class="textt">	The Tarlac Agricultural University (TAU), formerly the Tarlac College of Agriculture,is a public university in the province of Tarlac, Philippines. It is mandated to provide professional, technical and instruction for special purposes and to promote research extension services and progressive leadership in agriculture, agricultural education, home technology and other related fields. Its main campus is located in Malacampa, Camiling, Tarlac.<br> </p>
+			<p class="textt">
+				 TCA derives its legal mandate as an autonomous state agricultural college from Presidential Decree (PD) 609 dated December 18, 1974 which officially terminated its merger with the Tarlac College of Technology, now Tarlac State University (TSU). As highlighted in PD 609, TCA is mandated to undertake instruction, research and extension including production programs in agriculture, agricultural engineering, veterinary science, forestry and natural resources management in Central Luzon. The college was converted into a state university, the Tarlac Agricultural University, on May 10, 2016 by virtue of Republic Act No. 10800.
+				
+			</p>
+
+
+	</div>
+		<div id="sidebar">
+			<br> <br>
+			<p class="text_head" style="font-family: serif;"> Departments</p>
+			<br>
+				<div class="container">
+
+					  <div class="mySlides">						 
+					      <img src="image\cet.png" class="center">
+					  </div>
+
+					  <div class="mySlides">						    
+					      <img src="image\caf.png" class="center">
+					 </div>
+
+					  <div class="mySlides">						   
+						      <img src="image\vet.png" class="center">
+					</div>
+
+					  <div class="mySlides">
+						      <img src="image\cas.png" class="center">
+					  </div>
+
+					  <div class="mySlides">
+						      <img src="image\coe.png" class="center">
+					  </div>
+
+					  <div class="mySlides">
+						      <img src="image\cbm.png" class="center">
+					  </div>
+
+						  
+					  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+						 
+					 <div class="caption-container">
+						    <p id="caption"></p>
+					  </div>
+
+						  <div class="row">
+						    <div class="column">
+						      <img class="demo cursor" src="image\cet.png" style="width:100%" onclick="currentSlide(1)" alt="College of Engineering and Technology">
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="image\caf.png" style="width:100%" onclick="currentSlide(2)" alt="College of Agriculture and Forestry">
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="image\vet.png" style="width:100%" onclick="currentSlide(3)" alt="College of Veterinary Medicine">
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="image\cas.png" style="width:100%" onclick="currentSlide(4)" alt="College of Arts and Sciences">
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="image\coe.png" style="width:100%" onclick="currentSlide(5)" alt="College of Education">
+						    </div>
+						    <div class="column">
+						      <img class="demo cursor" src="image\cbm.png" style="width:100%" onclick="currentSlide(6)" alt="College of Business and Management">
+						    </div>
+			  	</div>
+			</div>
+	</div>
+</div>
+
+
+<div id="more">
+	<hr>
+		<p class="text_head" id="course">Colleges and courses offered </p>
+
+		<p class="title_text"> College of Agriculture and Forestry</p>
+			<li>Doctor of Philosophy: majors in Agronomy, Animal Science, Crop Science, Rural Development</li>
+			<li>Master of Science in Agriculture: majors in Agricultural Extension, Agronomy, Farming System Development, Animal Science, Horticulture</li>
+			<li>Master of Science in Forestry: majors in Community Development, Reforestation Management</li>
+			<li>Bachelor of Science in Agriculture (BSA): majors in Agronomy, Crop Protection, Horticulture, Animal Science, Soil Science, Agricultural Extension, Agricultural Economics, Agroforestry</li>
+			<li>Bachelor of Animal Science (BAS)</li>
+			<li>Bachelor of Science in Food Technology (BSFT)</li>
+			<li>Bachelor of Science in Forestry (BSF)</li>
+			<li>Certificate in Agriculture (two years)</li>
+			<li>Certificate in Animal Technology (two years)</li>
+			<li>Certificate in Landscaping (two years)</li>
+			<li>Forest Ranger Course</li>
+
+		<p class="title_text"> College of Arts and Sciences</p>
+			<li>Bachelor of Arts in Economics (AB Econ)</li>
+			<li>Bachelor of Science in Psychology (BS Psych)</li>
+			<li>Bachelor of Science in Development Communication (BS DevComm)</li>
+
+
+		<p class="title_text">College of Business and Management</p>
+			<li>Bachelor of Science in Entrepreneurship</li>
+			<li> Bachelor of Science in AgriEco Tourism</li>
+			<li>Bachelor of Science in Business Administration: majors in Human Resources Development Management and Business Management, Financial Management, Marketing Management</li>
+
+
+		<p class="title_text">Doctor of Philosophy in Development Education</p>
+			<li>Master of Arts in Education: majors in Educational Management, General Science, Mathematics</li>
+			<li>Bachelor of Elementary Education: majors in General Education, Pre-School Education</li>
+			<li>Bachelor of Secondary Education: major in Physical Science, Mathematics, Technology and Livelihood Education (TLE)</li>
+			<li>Bachelor of Science in Home Technology Management</li>
+			<li>Certificate in Home Technology</li>
+			<li>Laboratory School Programs
+			<li>Secondary Science  &amp; Technology Curriculum</li>
+			<li>Secondary Agri-Home Curriculum</li></ol></li>
+
+
+		<p class="title_text">College of Engineering and Technology</p>
+			<li>Master of Science in Agricultural Engineering: majors in Farm Mechanization, Soil and Water Management, Irrigation and Drainage</li>
+			<li>Bachelor of Science in Agricultural Engineering: majors in Crop Processing, Soil and Water Management</li>
+			<li>Bachelor of Science in Geodetic Engineering</li>
+			<li>Bachelor of Science in Information Technology</li>
+			<li>Certificate in Computer Hardware Technology</li>
+			<li>Certificate in Office Management</li>
+
+		<p class="title_text">College of Veterinary Medicine</p>
+			<li>Doctor of Veterinary Medicine</li>
+			<hr><br>
+</div>
+
+
+
+	
+<!--Footer-->
+
+<div id ="footer" >
+	<div class="center" id="q">
+		
+
+							<div class="btn" ><a href="https://web.facebook.com/tarlacagriculturaluniversity/?_rdc=1&_rdr"> <img src="image\call.png"></a> </div>
+							<div class="btn" ><a href="https://web.facebook.com/messages/t/114620661887244"> <img src="image\mes.png"></a> </div>
+							
+							<div class="btn" ><a href="https://web.facebook.com/tarlacagriculturaluniversity/?_rdc=1&_rdr"> <img src="image\fb.png"></a> </div>
+				
+							
+
+	</div>
+	<div>
+		<p> </p>
+	</div>
+							
+
+		</div>
+<script src="java.js" ></script>
+</body>
+</html>
